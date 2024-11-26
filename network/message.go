@@ -1,6 +1,6 @@
 package network
 
-import "github.com/anthdm/projectx/core"
+import "github.com/codernetorg/blockmaster/core"
 
 type GetBlocksMessage struct {
 	From uint32
