@@ -59,7 +59,6 @@ func DefaultRPCDecodeFunc(rpc RPC) (*DecodedMessage, error) {
 		return nil, fmt.Errorf("failed to decode message from %s: %s", rpc.From, err)
 	}
 
-	// fmt.Printf("receiving message: %+v\n", msg)
 
 	logrus.WithFields(logrus.Fields{
 		"from": rpc.From,
