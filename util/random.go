@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/codernetorg/blockmaster/core"
-	"github.com/anthdm/projectx/crypto"
-	"github.com/anthdm/projectx/types"
+	"github.com/codernetorg/blockmaster/crypto"
+	"github.com/codernetorg/blockmaster/types"
 	"github.com/stretchr/testify/assert"
 )
 
