@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/codernetorg/blockmaster/crypto"
-	"github.com/anthdm/projectx/types"
+	"github.com/codernetorg/blockmaster/types"
 	"github.com/stretchr/testify/assert"
 )
 
